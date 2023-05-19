@@ -1,0 +1,5 @@
+datamin2_venv
+.idea
+.gitignore
+*.__pyc__
+*.cpy

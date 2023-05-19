@@ -1,0 +1,21 @@
+{
+1: {frozenset({'Kidney Beans'}), frozenset({'Yogurt'}), frozenset({'Onion'}), frozenset({'Eggs'}), frozenset({'Milk'})},
+2: {frozenset({'Kidney Beans', 'Milk'}), frozenset({'Kidney Beans', 'Yogurt'}), frozenset({'Kidney Beans', 'Onion'}), frozenset({'Eggs', 'Onion'}), frozenset({'Kidney Beans', 'Eggs'})},
+3: {frozenset({'Kidney Beans', 'Eggs', 'Onion'})}
+}
+
+
+[
+[{'Eggs'}, {'Onion'}, 0.75],
+[{'Eggs'}, {'Kidney Beans', 'Onion'}, 0.75],
+[{'Kidney Beans', 'Eggs'}, {'Onion'}, 0.75],
+[{'Kidney Beans'}, {'Eggs'}, 0.8],
+[{'Milk'}, {'Kidney Beans'}, 1.0],
+[{'Yogurt'}, {'Kidney Beans'}, 1.0],
+[{'Onion'}, {'Kidney Beans'}, 1.0],
+[{'Onion'}, {'Eggs'}, 1.0],
+[{'Eggs'}, {'Kidney Beans'}, 1.0],
+[{'Onion'}, {'Kidney Beans', 'Eggs'}, 1.0],
+[{'Kidney Beans', 'Onion'}, {'Eggs'}, 1.0],
+[{'Eggs', 'Onion'}, {'Kidney Beans'}, 1.0]
+]
